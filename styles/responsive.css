@@ -1,0 +1,80 @@
+@media (max-width: 900px) {
+    
+
+    .margin {
+        margin: 0 auto;
+    }
+
+    .margin header {
+        display: block;
+        width: 200px;
+        margin: auto;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .margin header .header-logo {
+        margin: 0;
+    }
+
+    .margin header .nav a {
+        display: flex;
+        flex-direction: column;
+        margin: 0 0 5px 0;
+    }
+
+    .banner {
+        display: flex;
+        width: 90%;
+        margin: auto;
+        margin-top: 60px;
+        align-items: center;
+    }
+
+    .banner .text h1{
+        font-size: 40px;
+        width: 70%;
+        margin: auto;
+        margin-top: 70px;
+    }
+
+    .banner-img img {
+        display: none;
+    }
+
+    .margin .sobre h1 {
+        text-align: center;
+        color: var(--first-color);
+    }
+
+    .margin .sobre p{
+        text-justify: newspaper;
+        font-size: 14px;
+        line-height: 22px;
+        margin-left: 7px;
+    }
+
+    .direitos {
+        margin-top: 20px;
+    }
+
+    .sobepage {
+        width: 90%;
+        margin: auto;
+    }
+
+
+    #modal .content .card {
+        display: flex;
+        width: 90%;
+        height: 100%;
+    }
+
+    #modal .content .image-card {
+        display: none;
+    }
+
+    .pitch {
+        margin-bottom: 30px;
+    }
+}
